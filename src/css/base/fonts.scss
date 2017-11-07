@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'museo700';
+    src: url('/dist/fonts/MuseoSansBold.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museo500';
+    src: url('/dist/fonts/MuseoSansMedium.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo300';
+    src: url('/dist/fonts/MuseoSansRegular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin m700 {
+    font-family: 'museo700', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin m500 {
+    font-family: 'museo500', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin m300 {
+    font-family: 'museo300', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin arial {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
